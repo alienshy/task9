@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0%;
+}
+section{
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+.kvadrat{
+    position: relative;
+    animation-name: davamli;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    bottom: 20px;
+    right: 100px;
+}
+.yumru1{
+    position: relative;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.yumru2{
+    position: relative;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    left: 200px;
+    top: -200px;
+}
+.ucken{
+    transform: rotate(45deg);
+    position: relative;
+    background-color:red;
+    height: 229px;
+    width: 229px;
+    bottom: 335px;
+    left: 85.65px;
+}
+.basliq{
+    transform: rotate(45deg);
+    position: relative;
+    background-color:black;
+    height: 30px;
+    width: 30px;
+    bottom: 606px;
+    left: 185px;
+}
+.lwp202{
+    position: relative;
+    background-color: bisque;
+    width: 200px;
+    height: 100px;
+    left: 100px;
+    bottom:570px;
+}
+@keyframes davamli{
+    0% {
+        transform: scale(1);
+    }
+    35% {
+        transform: scale(1.5);
+    }
+    50%{
+        transform: scale(2);
+    }
+    65%{
+    transform: scale(1.5);
+    }
+    80%{
+    transform: scale(2);
+    }
+    100%{
+        transform: scale(1);
+    }
+} 
+h1{
+    padding: 40px;
+    background-color: red;
+}
